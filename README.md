@@ -62,7 +62,7 @@ id, registration, name, address, phone, Wechat, profession, birth, register_time
 
 And these properties are stored into 4 relations which are in struct form. We established a B+ tree for each relation, thus there are 4 in total, and these B+ trees use id as the primary key. Also, we establish a B tree and a hash table to search for data based on secondary keys, health card number and risk status resp. When you enter the secondary key information, you can get the id and search for the corresponding information of those people with the secondary key in the B + tree.      
 
-![framework 图标](image/dataset.jpg)
+![framework 图标](https://github.com/HiracharleFranklin/Analog-Simplified-Hospital-Registration-System/blob/5c47f64680e5cb1bcb5a8a9c93c3df7874bce959/image/system%20overview.jpg)
 
 ## Program Usage
 Download all the files and run makefile, all the information to display will be shown on the console. There are two checkpoints, follow the user interface and test our system. Have fun!
